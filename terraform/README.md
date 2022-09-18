@@ -9,6 +9,7 @@ Terraform scripts to help you manage/create your resources in Azure Cloud enviro
 
 # Table of Contents
 - [Resource Group](./mtc_resource_group/)
+- [Resource Group For Multpile Environments With Workspaces](./mtc_workspaces_resource_group/)
 
 # Getting Started 
 
