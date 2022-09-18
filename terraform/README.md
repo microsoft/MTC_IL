@@ -2,6 +2,10 @@
 
 Terraform scripts to help you manage/create your resources in Azure Cloud environment.
 
+# Terraform Azure Flow Diagram
+
+![alt text](./architecture/terraform-azure-architecture.png?raw=true)
+
 
 # Table of Contents
 - [Resource Group](./mtc_resource_group/)
@@ -32,3 +36,7 @@ Prerequisites:
 - Azure Subscription - [documentation](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/initial-subscriptions)
 - Azure CLI - [documentation](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-linux?pivots=apt)
 - Terraform CLI - [documentation](https://learn.hashicorp.com/tutorials/terraform/install-cli)
+
+## Links
+
+- [Azure Terraform Provider](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs)
