@@ -1,0 +1,5 @@
+resource_group_name    = "mtv_terraform_keyvault_rg"
+location               = "West Europe"
+keyvault_name          = "mtc-demo-keyvault01"
+secret_name            = "dbpasswordexample"
+secret_value           = "Password1234!@"
