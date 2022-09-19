@@ -15,7 +15,7 @@ Terraform scripts to help you manage/create your resources in Azure Cloud enviro
 - [Key Vault with Secrets with RBAC Authorization](./mtc_keyvault_rbac/)
 - [Storageaccount with blob and container](./mtc_storageaccount_container_blob/)
 - [Linux Virtual Machine](./mtc_vm_linux/)
-- [Windows Virtual Machine](./mtc_vm_windows/)
+- [Windows Virtual Machine with Bastion](./mtc_vm_windows_bastion/)
 
 # Getting Started 
 

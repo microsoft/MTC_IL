@@ -1,0 +1,7 @@
+resource_group_name    = "mtc_terraform_rg"
+location               = "West Europe"
+virtual_network_name   = "mtcvnettest1000"
+subnet_name            = "mtcsubnet1000"
+public_ip_name         = "mtcpublicip1000"
+network_interface_name = "mtcnic1000"
+windows_vm_name        = "windows10"

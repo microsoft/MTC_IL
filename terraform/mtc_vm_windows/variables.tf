@@ -8,12 +8,27 @@ variable "resource_group_name" {
   description = "Resource Group name"
 }
 
-variable "storage_account_name" {
+variable "virtual_network_name" {
   type        = string
-  description = "Storage Account name"
+  description = "Virtual Network name"
 }
 
-variable "storage_container_name" {
+variable "subnet_name" {
   type        = string
-  description = "Storage Container name"
+  description = "Subnet name"
+}
+
+variable "public_ip_name" {
+  type        = string
+  description = "Public Ip name"
+}
+
+variable "network_interface_name" {
+  type        = string
+  description = "Network interface name"
+}
+
+variable "windows_vm_name" {
+  type        = string
+  description = "Windows VM name"
 }
