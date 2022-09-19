@@ -1,0 +1,8 @@
+resource_group_name         = "mtc_terraform_test_rg"
+location                    = "West Europe"
+virtual_network_name        = "mtcvnet1000"
+subnet_name                 = "mtcsubnet1000"
+public_ip_name              = "mtcpublicip1000"
+network_security_group_name = "mtcnsg1000"
+network_interface_name      = "mtcnic1000"
+linux_virtual_machine_name  = "mtclinuxvm10000"
