@@ -1,4 +1,4 @@
-# Terraform - Create 2 VMS - 1 Bastion Windows VM , 2 - Windows VM
+# Terraform - Create 2 VMS - Bastion , Windows VM
 - Creating 1 Vnet
 - Creating 2 Subnets - 1 for bastion vm and second for normal windows vm
 - Creating 1 Bastion and 1 Windows 10 VM
