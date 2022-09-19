@@ -3,28 +3,32 @@
 ## Commands
 
 #### Initialize terraform Azure modules
-```
-terraform init
+```cmd
+> terraform init
 ```
 
 ####  Plan and preview terraform changes
-```
-terraform plan -out tfplan
+```cmd
+> terraform plan -out tfplan
 ```
 
 #### Show the tfplan file
-terraform show -json tfplan
-terraform show -json tfplan >> tfplan.json
+```cmd
+> terraform show -json tfplan
+> terraform show -json tfplan >> tfplan.json
+```
 
 #### Format tfplan.json file
-terraform show -json tfplan | jq '.' > tfplan.json
+```cmd
+> terraform show -json tfplan | jq '.' > tfplan.json
+```
 
 #### Deploy terraform infra
-```
-terraform apply
+```cmd
+> terraform apply
 ```
 
 #### Destroy infra
-```
-terraform destroy
+```cmd
+> terraform destroy
 ```
