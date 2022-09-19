@@ -12,6 +12,7 @@ Terraform scripts to help you manage/create your resources in Azure Cloud enviro
 - [Resource Group For Multpile Environments With Workspaces](./mtc_workspaces_resource_group/)
 - [Kubernetes AKS](./mtc_kubernetes_aks/)
 - [Key Vault with Secrets](./mtc_keyvault_secrets/)
+- [Key Vault with Secrets with RBAC Authorization](./mtc_keyvault_rbac/)
 
 # Getting Started 
 
