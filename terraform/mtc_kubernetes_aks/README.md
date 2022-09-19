@@ -2,48 +2,48 @@
 ## Commands
 
 #### Format the tf files 
-```
-terraform fmt
+```sh
+$ terraform fmt
 ```
 
 #### Initialize terraform Azure modules
-```
-terraform init
+```sh
+$ terraform init
 ```
 
 #### Validate terraform templates
-```
-terraform validate
+```sh
+$ terraform validate
 ```
 
 #### Plan and save the changes into tfplan file
-```
-terraform plan -out tfplan
+```sh
+$ terraform plan -out tfplan
 ```
 
 #### Show the tfplan file
-```
-terraform show -json tfplan
-terraform show -json tfplan >> tfplan.json
+```sh
+$ terraform show -json tfplan
+$ terraform show -json tfplan >> tfplan.json
 ```
 
 #### Format tfplan.json file
-```
-terraform show -json tfplan | jq '.' > tfplan.json
+```sh
+$ terraform show -json tfplan | jq '.' > tfplan.json
 ```
 
 #### Show only the changes 
-```
-cat tfplan.json | jq -r '(.resource_changes[] | [.change.actions[], .type, .change.after.name]) | @tsv'
-cat tfplan.json | jq '[.resource_changes[] | {type: .type, name: .change.after.name, actions: .change.actions[]}]' 
+```sh
+$ cat tfplan.json | jq -r '(.resource_changes[] | [.change.actions[], .type, .change.after.name]) | @tsv'
+$ cat tfplan.json | jq '[.resource_changes[] | {type: .type, name: .change.after.name, actions: .change.actions[]}]' 
 ```
 
 #### Apply the infra changes to Azure
-```
-terraform apply tfplan
+```sh
+$ terraform apply tfplan
 ```
 
 #### Delete the infra from Azure
-```
-terraform destroy
+```sh
+$ terraform destroy
 ```

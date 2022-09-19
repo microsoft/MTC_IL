@@ -3,21 +3,21 @@
 ## Commands
 
 #### Initialize terraform Azure modules
-```
-terraform init
+```sh
+$ terraform init
 ```
 
 ####  Plan and preview terraform changes
-```
-terraform plan
+```sh
+$ terraform plan
 ```
 
 #### Deploy terraform infra
-```
-terraform apply
+```sh
+$ terraform apply
 ```
 
 #### Destroy infra
-```
-terraform destroy
+```sh
+$ terraform destroy
 ```
