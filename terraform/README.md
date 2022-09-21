@@ -16,6 +16,7 @@ Terraform scripts to help you manage/create your resources in Azure Cloud enviro
 - [Storageaccount with blob and container](./mtc_storageaccount_container_blob/)
 - [Linux Virtual Machine](./mtc_vm_linux/)
 - [Windows Virtual Machine with Bastion](./mtc_vm_windows_bastion/)
+- [Windows Virtual Machone with IIS](./mtc_vm_windows_iis/)
 
 # Getting Started 
 
