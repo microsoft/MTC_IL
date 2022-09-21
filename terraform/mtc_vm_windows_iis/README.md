@@ -1,12 +1,12 @@
-# Terraform - Create 2 VMS - Bastion , Windows VM
-- Creating 1 Vnet
-- Creating 1 Subnet
-- Creating 1 VM - Windows Server 2019 Gen 2 
-- Creating Public ip for VM
-- Creating Network Security Group and Allow ports: 3389, 80
-- Creating Network Interface 
-- Associate NSG to Nic 
-- Install Internet Information Services Web Server
+# Terraform - Create Windows Server VM with IIS 
+- Create a virtul network 
+- Create a subnet
+- Create a public IP address
+- Create a network security group and allow ports: RDP - 3389, HTTP - 80
+- Create a virtual network interface card
+- Connect the network security group to the network interface
+- Create a virtual machine
+- Install an internet information services ( IIS ) Web Server
 
 ## Commands
 
