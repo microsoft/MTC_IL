@@ -40,3 +40,6 @@ override.tf.json
 .terraformrc
 terraform.rc
 # .gitignore
+
+# Ignore node_modules folder for javascript based applications
+node_modules

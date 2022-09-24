@@ -34,6 +34,7 @@ resource "azurerm_linux_web_app" "webapp" {
 resource "azurerm_app_service_source_control" "sourcecontrol" {
   app_id                 = azurerm_linux_web_app.webapp.id
   repo_url               = "https://github.com/Azure-Samples/nodejs-docs-hello-world"
-  branch                 = "master"
+  # repo_url               = "https://github.com/microsoft/MTC_IL/tree/main/terraform/mtc_webapp_nodejs/node-sample-app"
+  branch                 = "main"
   use_manual_integration = true
 }
