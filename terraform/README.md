@@ -17,6 +17,7 @@ Terraform scripts to help you manage/create your resources in Azure Cloud enviro
 - [Linux Virtual Machine](./mtc_vm_linux/)
 - [Windows Virtual Machine with Bastion](./mtc_vm_windows_bastion/)
 - [Windows Virtual Machine with IIS](./mtc_vm_windows_iis/)
+- [App Service with nodejs application](./mtc_webapp_nodejs/)
 
 # Getting Started 
 

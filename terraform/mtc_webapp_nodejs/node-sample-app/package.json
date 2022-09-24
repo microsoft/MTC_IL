@@ -1,0 +1,16 @@
+{
+  "name": "sample-app",
+  "version": "0.0.1",
+  "description": "Simple nodejs app for Azure App Services",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Microsoft",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1"
+  }
+}
